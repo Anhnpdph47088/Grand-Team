@@ -90,6 +90,7 @@ main h1 {
   border-radius: 20px;
   cursor: pointer;
   transition: 0.4s ease-out;
+  z-index: 999;
 }
 .skill-container {
   display: flex;
