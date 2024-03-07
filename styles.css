@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1vw;
+  font-family: "Roboto Mono", monospace;
+  color: #191919;
+}
+body {
+  padding: 2% 6% 1% 6%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.web-logo {
+  width: 8vw;
+}
+.menu-items {
+  width: 2vw;
+  height: 2vw;
+  transition: 0.4s ease-in;
+  margin: 0 3.5vw;
+  transition: 0.3s ease-in;
+  padding: 2px;
+}
+.menu-items:hover {
+  border-radius: 50%;
+  background-color: #de6161;
+  scale: 0.9;
+  transition: 0.3s ease-in;
+}
+.header-menu {
+  border: 1px solid #191919;
+  border-radius: 20px;
+  width: 40vw;
+  padding: 5px 0;
+}
+.banner-main {
+  overflow: hidden;
+}
+.banner-image {
+  width: 100%;
+  margin-top: 2vh;
+  border-radius: 20px;
+  transition: 0.5s ease-in;
+  cursor: pointer;
+}
+.banner-image:hover {
+  scale: 1.2;
+  transition: 0.5s ease-out;
+}
+main h1 {
+  text-align: center;
+  margin: 5vh 0;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 8vh 0;
+}
+
+.box-news {
+  width: 80vw;
+  height: 15vw;
+  background-color: #de6161;
+  border-radius: 20px;
+  position: relative;
+}
+
+.About-us:hover {
+  scale: 1.2;
+  transition: 0.4s ease-out;
+}
+.skill:hover {
+  scale: 1.2;
+  transition: 0.4s ease-out;
+}
+.About-us,
+.skill {
+  width: 30vw;
+  height: 15vw;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+}
+.skill-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.skill-logo {
+  width: 3vw;
+  height: 3vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.skill-logo:hover {
+  scale: 1.4;
+  transition: 0.3s ease-out;
+}
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+}
+.content-image {
+  width: 20vw;
+  height: 15vw;
+  scale: 1.3;
+  border-radius: 15px;
+  transition: 0.4s ease-in;
+}
+.content-image:hover {
+  scale: 1;
+  transition: 0.4s ease-in-out;
+}
+.SP {
+  text-decoration: none;
+}
+.main-btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.buy-btn {
+  padding: 1vw 10vw;
+  color: white;
+  background-color: #de6161;
+  border-radius: 25px;
+  border: transparent;
+  margin: 4vh 0;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+}
+.buy-btn:hover {
+  background-color: rgb(55, 224, 91);
+  transition: 0.4s ease-out;
+}
+.footer-items {
+  display: flex;
+  border-radius: 15px;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #beb7a4;
+}
+
+footer p {
+  padding-top: 50px;
+}
+
+footer .ft-contact {
+  margin-right: 80px;
+}
