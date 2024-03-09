@@ -156,18 +156,22 @@ main h1 {
   transition: 0.4s ease-out;
 }
 
+footer {
+  padding-top: 10vh;
+}
 .footer-items {
   display: flex;
-  border-radius: 15px;
   justify-content: space-between;
   align-content: center;
   background-color: #beb7a4;
+  height: 15vh;
+  border-radius: 15px;
 }
-
-footer p {
-  padding-top: 50px;
+.copyright {
+  height: 15vh;
+  display: grid;
+  place-items: center;
 }
-
-footer .ft-contact {
-  margin-right: 80px;
+.content {
+  padding-top: 4vh;
 }
