@@ -80,9 +80,12 @@ main {
 }
 .row-1,
 .row-2 {
-  padding-top: 20vh;
+  padding-top: 5vh;
   display: flex;
   justify-content: space-evenly;
+}
+.row-2 {
+  margin-top: 10vh;
 }
 .product-box {
   background-color: white;
