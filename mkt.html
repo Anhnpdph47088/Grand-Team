@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team 6 MKT</title>
+    <link rel="stylesheet" href="mkt.css" class="css" />
+  </head>
+  <body>
+    <header >
+        <div class="header-logo hidden">
+            <a href="index.html"><img class="web-logo"src="./img/logo.webp" alt=""></a>
+        </div>
+        <nav class="header-menu hidden">
+            <a class="items-link" href="index.html"><ion-icon class="menu-items" name="home-outline"></ion-icon></a>
+            <a class="items-link" href="webcon.html"><ion-icon class="menu-items" name="browsers-outline"></ion-icon></a>
+            <a class="items-link" href="#contact-us"><ion-icon class="menu-items" name="information-circle-outline"></ion-icon><a href=""></img></a>
+            <a class="items-link" href="#"><ion-icon class="menu-items" name="mail-outline"></ion-icon></a>
+        </nav>
+
+        
+    </header>
+    <div class="banner-main hidden">
+        <img class="banner-image"src="img/contact-us-customer-support-enquiry-hotline-concept 1.webp" alt="">
+    </div>
+
+   <main class="hidden">
+    <center><h1 class="contact " id="contact-us">Liên hệ với chúng tôi</h1></center>
+    <form action="" class="form-box">
+      <div class="email-container">
+        <h2 class="email-text">Email Liên hệ:</h2>
+        <input type="email" name="" class="email" placeholder="Mời Nhập Email....">
+      </div>
+    <h2 class="comment-text">Hòm góp ý: </h2>
+    <textarea name="" class="comment" ></textarea>
+    <center><input type="submit" value="Gửi" class="submit-button"></center>
+    </form>
+    <center><div class="icon-container">
+      <img class="social-logo" src="img/logo-facebook.webp" alt="">
+      <img class="social-logo" src="img/logo-zalo.webp" alt="">
+      <img class="social-logo" src="img/logo-youtube.webp" alt="">
+      <img class="social-logo" src="img/logo-twitter.webp" alt="">
+    </div></center>
+   </main>
+
+    <footer>
+        <div class="footer-items hidden">
+            <a href=""><img class="web-logo"src="./img/logo.webp" alt=""></a>
+            <div class="copyright">
+                <center><p>&copy; Copyright by Team 6 FPL MKT</p></center>
+            </div>
+            
+            <div class="ft-contact">
+                <h4>Email: abc@fpt.edu.vn</h5>
+                    <h5>012345678</h5>
+            </div></div>
+        
+    </footer>
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    } 
+  });
+});
+const hiddenElement = document.querySelectorAll(".hidden");
+hiddenElement.forEach((el) => observer.observe(el));
+
+  </script>
+</body>
+</html>

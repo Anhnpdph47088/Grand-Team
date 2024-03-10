@@ -11,7 +11,21 @@ body {
   padding: 2% 6% 1% 6%;
   display: grid;
 }
-
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-padding-top: 10px;
+}
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+::-webkit-scrollbar-button {
+  width: 3px;
+  height: 3px;
+}
 header {
   display: flex;
   justify-content: space-between;
