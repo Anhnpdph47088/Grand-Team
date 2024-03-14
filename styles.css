@@ -75,36 +75,35 @@ header {
 }
 main h1 {
   text-align: center;
-  margin: 8vh 0;
+  padding-top: 5vh;
 }
 
 .box {
   display: flex;
+  align-items:center;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
+  height: 15vw;
   margin: 10vh 0;
-}
 
-.box-news {
-  width: 80vw;
+}
+.text-container{
+  width: 100%;
   height: 15vw;
   background-color: #de6161;
   border-radius: 20px;
-  position: relative;
-  display: block;
+  display: grid;
 }
+
 .information {
+
   scale: 0.8;
-  position: relative;
-  top: -2vw;
   transition: 0.4s ease-in;
 }
 .information:hover {
   scale: 1;
   transition: 0.4s ease-in;
   color: white;
-  cursor: pointer;
 }
 
 .About-us:hover {
