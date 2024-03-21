@@ -35,7 +35,7 @@ html {
   scroll-behavior: smooth;
 }
 .web-logo {
-  width: 8dvw;
+  width: 6dvw;
 }
 .header-menu {
   border: 1px solid #191919;
@@ -82,44 +82,17 @@ background-color: #de6161;
 color:white;
 transition: 0.3s ease-in;
 }
-footer {
-  padding-top: 80dvh;
-}
-.footer-items {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  background-color: #beb7a4;
-  height: 15dvh;
-  border-radius: 15px;
-}
-.copyright {
-  height: 15dvh;
-  display: grid;
-  place-items: center;
-}
-.content {
-  padding-top: 4dvh;
-}
-main {
-  position: relative;
-  height: 130dvh;
-}
+
 
 .product {
   width: 100%;
-  height: 130dvh;
-  padding-top: 3dvh;
-  display: grid;
+
 }
 .row-1,
 .row-2 {
-  padding-top: 5dvh;
+  padding: 5dvh 0;
   display: flex;
   justify-content: space-evenly;
-}
-.row-2 {
-  margin-top: 10dvh;
 }
 .product-box {
   background-color: white;
@@ -128,6 +101,7 @@ main {
   height: 32dvw;
   border-radius: 15px;
   display: grid;
+
 }
 .box-image-container {
   width: 20dvw;
@@ -151,17 +125,18 @@ main {
 }
 .prices {
   width: 20dvw;
-  height: 40dvh;
-  display: grid;
+  height:10dvh;
+
 }
 .desc-item {
-  margin-left: 0.5dvw;
+  margin-left: 5px;
 }
 .datmua {
+  margin-top: 5dvh;
   color: white;
   border: none;
   background-color: #de6161;
-  padding: 1dvw;
+  padding: 1vw;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.4s ease-out;
@@ -181,4 +156,34 @@ main {
   scale: 1;
   opacity: 1;
   transition: 0.5s ease-in-out;
+}
+footer {
+  margin-top: 10dvh;
+  background-color: #beb7a4;
+  border-radius:20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.footer-item {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-item img {
+  width: 6dvw;
+  height: auto;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.content {
+  padding-top: 4dvh;
 }
