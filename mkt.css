@@ -82,20 +82,6 @@ color:white;
 transition: 0.3s ease-in;
 }
 
-.banner-main {
-  overflow: hidden;
-}
-.banner-image {
-  width: 100%;
-  margin-top: 2dvh;
-  border-radius: 20px;
-  transition: 0.5s ease-in;
-  cursor: pointer;
-}
-.banner-image:hover {
-  scale: 1.2;
-  transition: 0.5s ease-out;
-}
 main {
   width: 100%;
   height: 90dvh;
